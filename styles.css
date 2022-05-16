@@ -340,7 +340,7 @@ q:lang(no) {
 /* working with pseudo-elements :: */
 
 
-p::first-line {
+/* p::first-line {
        color: #009fff;
        font-weight: bold;
 }
@@ -360,7 +360,7 @@ h1::before {
 }
 
 h1::after {
-       /* content:url(./images/The_Science-Backed_Benefits_of_Being_a_Dog_Owner.jpg); */
+       content:url(./images/The_Science-Backed_Benefits_of_Being_a_Dog_Owner.jpg);
 }
 
 
@@ -379,4 +379,29 @@ li {
 .selection ::selection {
        color: red;
        background-color: yellow;
+} */
+
+
+
+
+/* Working with the Opacity/Transparency of an element */
+
+
+
+/* img {
+       display: block;
+       margin: 5px;
+       
 }
+
+.opacity {
+       opacity: 0.5;
+}
+
+.opacity-hover:hover {
+       opacity: 0.5;
+       
+} */
+
+
+
