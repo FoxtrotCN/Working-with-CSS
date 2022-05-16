@@ -5,6 +5,7 @@
     font-size: 30px;
     margin: 0;
     padding: 0;
+
 }
 
 
@@ -414,7 +415,7 @@ li {
 
 
 
-ul {
+/* ul {
        list-style-type: none;
        margin: 0;
        padding: 0;
@@ -466,7 +467,59 @@ div {
        margin-left: 500px;
        margin-top: 25px;
        
+} */
+
+
+
+/* li {
+       display: inline;
+} */
+
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: darkslategrey;
+      position: fixed;
+      width: 100%;
+
+     
 }
+
+li {
+       float: left;
+       
+}
+
+li {
+       border-left: 1px solid white;
+}
+
+
+li a {
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+}
+
+li a:hover:not(.active){
+       background-color: gray;
+}
+
+
+
+.active {
+       background-color: green;
+       position: absolute;
+       right: 0;
+       
+}
+
+
 
 
 
