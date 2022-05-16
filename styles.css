@@ -525,7 +525,7 @@ li a:hover:not(.active){
 /* Working with Dropdown */
 
 
-.dropbtn {
+/* .dropbtn {
        background-color: #4caf50;
        color: white;
        padding: 16px;
@@ -572,6 +572,44 @@ li a:hover:not(.active){
 
 .dropdown:hover .dropbtn {
        background-color: #3e8e41;
+} */
+
+
+
+
+/* Image Gallery */
+
+.gallery-container {
+       position: relative;
+      display: inline-block;
+       
 }
 
+
+div.gallery {
+       margin: 25px;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       border: 1px solid #ccc;
+       float: left;
+       width: 180px;
+}
+
+div.gallery:hover {
+       border: 1px solid #777;
+}
+
+div.gallery img {
+       width: 100%;
+       height: auto;
+}
+
+
+div.desc {
+       text-align: center;
+       padding: 15px;
+       
+}
 
