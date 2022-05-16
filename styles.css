@@ -329,3 +329,9 @@ p i:first-child {
        color: red;
 }
 
+
+q:lang(no) {
+       quotes: "<" ">";
+}
+
+
