@@ -274,10 +274,10 @@ a:visited {
 } */ 
 
 
-/* Working with Pseudo-Classes */
+/* Working with Pseudo-Classes : */
 
 
-a:link {
+/* a:link {
        color: #00f;
 }
 
@@ -332,6 +332,45 @@ p i:first-child {
 
 q:lang(no) {
        quotes: "<" ">";
+} */
+
+
+
+
+/* working with pseudo-elements :: */
+
+
+p::first-line {
+       color: #009fff;
+       font-weight: bold;
+}
+
+p.first-letter::first-letter {
+       color: red;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-style: italic;
+       font-weight: bold;
+       
+}
+
+h1::before {
+       content: url(./images/The_Science-Backed_Benefits_of_Being_a_Dog_Owner.jpg);
+       
+       
+}
+
+h1::after {
+       content:url(./images/The_Science-Backed_Benefits_of_Being_a_Dog_Owner.jpg);
 }
 
 
+::marker {
+       color: blue;
+       
+       
+
+}
+
+li {
+       margin-left: 50px;
+}
