@@ -360,7 +360,7 @@ h1::before {
 }
 
 h1::after {
-       content:url(./images/The_Science-Backed_Benefits_of_Being_a_Dog_Owner.jpg);
+       /* content:url(./images/The_Science-Backed_Benefits_of_Being_a_Dog_Owner.jpg); */
 }
 
 
@@ -373,4 +373,10 @@ h1::after {
 
 li {
        margin-left: 50px;
+}
+
+
+.selection ::selection {
+       color: red;
+       background-color: yellow;
 }
