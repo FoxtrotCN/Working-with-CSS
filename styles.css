@@ -858,10 +858,20 @@ div.desc {
 
 /*Simple pagination*/
 
+/*Set colors with variables var()*/
+
+:root {
+    --blue: #6495ed;
+    --green: #4caf50;
+    --darkgrey: #a9a9a9;
+    --black: #000;
+
+}
+
 .pagination {
     display: inline-block;
     margin-top: 50px;
-    border: 2px solid cornflowerblue;
+    border: 2px solid var(--blue);
     border-radius: 5px;
 
 }
@@ -870,22 +880,22 @@ div.desc {
 }
 
 .pagination a {
-    color: black;
+    color: var(--black);
     text-decoration: none;
     float: left;
     padding: 8px 16px;
     border-radius: 5px;
-    transition: background-color .3s;
+    transition: background-color 2s ease var(--blue);
     margin: 0 4px;
 }
 
 .pagination a.active {
-    background-color: #4caf50;
+    background-color: var(--green);
     border-radius: 5px;
 }
 
 .pagination a:hover:not(.active) {
-    background-color: darkgrey;
+    background-color: var(--darkgrey);
 
 }
 
