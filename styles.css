@@ -174,3 +174,11 @@ body {
     text-align: center;
     background-color: #1abc9c;
 }
+
+/*Responsive Layout - when the screen is less than 700px wide, make two columns stack on top of each other instead of next to each other*/
+
+@media screen and (max-width: 700px) {
+    .row-flex-container, .nav-bar {
+        flex-direction: column;
+    }
+}
