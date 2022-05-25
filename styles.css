@@ -189,29 +189,32 @@ body {
 }
 
 .title {
-    text-align: center;
-    margin: auto;
+    display: flex;
     font-family: Georgia, sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: white;
-    position: relative;
-    padding: 50px;
-    width: 700px;
+    margin: 20px 15px;
 
+}
+
+h3 {
+   
+    margin: 25px auto;
 
 }
 
 
 .form-flex-container {
     display: flex;
+    margin: auto;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #444;
-    margin: 50px 30px;
     width: 50%;
-    margin: auto;
+
+
 }
 
 .form {
@@ -281,6 +284,26 @@ label:hover {
 
 textarea {
     resize: none;
+}
+
+button {
+    outline: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #444444;
+    border: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, transparent, #222);
+
+
 }
 
 
