@@ -210,6 +210,8 @@ body {
     justify-content: center;
     background-color: #444;
     margin: 50px 30px;
+    width: 50%;
+    margin: auto;
 }
 
 .form {
