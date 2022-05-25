@@ -87,98 +87,197 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 /*Style the body*/
 
-body {
-    font-family: Georgia;
-    margin: 0;
-}
+/*body {*/
+/*    font-family: Georgia;*/
+/*    margin: 0;*/
+/*}*/
 
 /*Header/Logo title*/
 
-.note {
-    background-color: slateblue;
-    text-align: center;
-    width: 100%;
-    padding: 5px;
-}
+/*.note {*/
+/*    background-color: slateblue;*/
+/*    text-align: center;*/
+/*    width: 100%;*/
+/*    padding: 5px;*/
+/*}*/
 
-.header {
-    padding: 60px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
+/*.header {*/
+/*    padding: 60px;*/
+/*    text-align: center;*/
+/*    background: #1abc9c;*/
+/*    color: white;*/
 
-}
+/*}*/
 
 /*Style the top navigation bar*/
 
-.nav-bar {
-    display: flex;
-    background-color: #333;
-}
+/*.nav-bar {*/
+/*    display: flex;*/
+/*    background-color: #333;*/
+/*}*/
 
 /*Style the navigation bar links*/
 
-.nav-bar a {
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-    text-align: center;
-}
+/*.nav-bar a {*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    padding: 14px 20px;*/
+/*    text-align: center;*/
+/*}*/
 
-.nav-bar a:hover {
-    background-color: lightblue;
-    color: black;
-    font-weight: bold;
-}
+/*.nav-bar a:hover {*/
+/*    background-color: lightblue;*/
+/*    color: black;*/
+/*    font-weight: bold;*/
+/*}*/
 
 /*Column container*/
 
-.row-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-}
+/*.row-flex-container {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*}*/
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 
-.side {
-    flex: 30%;
-    background-color: #f1f1f1;
-    padding: 20px;
-}
+/*.side {*/
+/*    flex: 30%;*/
+/*    background-color: #f1f1f1;*/
+/*    padding: 20px;*/
+/*}*/
 
 /*Main column*/
 
-.main {
-    flex: 70%;
+/*.main {*/
+/*    flex: 70%;*/
+/*    background-color: white;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*Fake Image, just for this example*/
+
+/*.fake-img {*/
+/*    background-color: #aaa;*/
+/*    width: 100%;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*Footer*/
+
+/*.footer {*/
+/*    padding: 20px;*/
+/*    text-align: center;*/
+/*    background-color: #1abc9c;*/
+/*}*/
+
+/*Responsive Layout - when the screen is less than 700px wide, make two columns stack on top of each other instead of next to each other*/
+
+/*@media screen and (max-width: 700px) {*/
+/*    .row-flex-container, .nav-bar {*/
+/*        flex-direction: column;*/
+/*    }*/
+/*}*/
+
+
+
+.title {
+    text-align: center;
+    margin: 0 15px;
+    margin-top: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lightblue;
+    position: relative;
+    padding: 50px;
+
+}
+
+
+.form-flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #444;
+    margin: 50px 30px;
+}
+
+.form {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 2px solid #09f;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+
+label {
+    display: flex;
+    /*margin: 15px 0;*/
+    padding-top: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+label:hover {
+    color: white;
+    transition: .8s;
+}
+
+
+.form textarea {
+    min-height: 100px;
+}
+
+.form-img {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    width: 100%;
+
+}
+
+.form-img img {
+    width: 60%;
+    margin: auto;
+    border-radius: 50%;
     background-color: white;
     padding: 20px;
 }
 
-/*Fake Image, just for this example*/
 
-.fake-img {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
 
-/*Footer*/
 
-.footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #1abc9c;
-}
 
-/*Responsive Layout - when the screen is less than 700px wide, make two columns stack on top of each other instead of next to each other*/
 
-@media screen and (max-width: 700px) {
-    .row-flex-container, .nav-bar {
-        flex-direction: column;
-    }
-}
+
+
+
+
+
+
+
+
+
+
